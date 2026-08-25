@@ -1,6 +1,10 @@
 package test
 
-import "github.com/sundowndev/phoneinfoga/v2/lib/number"
+import (
+	"log"
+
+	"github.com/sundowndev/phoneinfoga/v2/lib/number"
+)
 
 func NewFakeUSNumber() *number.Number {
 	n, err := number.NewNumber("+1.4152229670")
